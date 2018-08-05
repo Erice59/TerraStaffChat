@@ -1,0 +1,7 @@
+Version: '1.0'
+PluginPrefix: '&7[&4TerraStaffChat&7]'
+MainPrefix: '&7[&4TP Staff&7] '
+ModPrefix:  '&7[&4MOD&7] '
+AdminPrefix: '&7[&4SC&7] '
+Nicknames: true
+No Permission: '&4ERROR: You do not have permission to run this command!'

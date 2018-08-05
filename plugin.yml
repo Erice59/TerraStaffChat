@@ -1,0 +1,29 @@
+main: org.terraprime.TerraStaffChat.Main
+name: TerraStaffChat
+version: 1.0
+author: Kuller
+description: A staff chat plugin with multiple channels
+commands:
+  terrastaffchat:
+    description: Staff Channel Chat
+    aliases: [tsc, sc]
+    usage: /terrastaffchat [message]
+    permission: terrastaffchat.staffchat
+  adminchat:
+    description: Admin Channel Chat
+    aliases: [tsa, ac, sa]
+    usage: /adminchat
+    permission: terrastaffchat.admin
+  modchat:
+    description: Moderator Channel Chat
+    usage: /modchat
+    aliases: [tsm, sm, mc]
+    permission: terrastaffchat.mod
+  terrastaffchattoggle:
+    description: Staff Channel Chat Toggle
+    aliases: [tsctoggle, sctoggle, sct, tsct]
+    permission: terrastaffchat.staffchat
+  tscreload:
+    description: Reload TerraStaffChat Configuration
+    usage: /tscreload
+    permission: terrastaffchat.reload
